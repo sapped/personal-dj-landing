@@ -179,8 +179,8 @@ export default function Home() {
         <div className="container">
           <h2>Let&apos;s work together</h2>
           <p>
-            Currently booking private events, weddings, and social gatherings in Atlanta. Open to
-            venue residencies and one-off activations.
+            Currently booking private events, weddings, fitness classes, and social gatherings in
+            Atlanta. Open to venue residencies and one-off activations.
           </p>
           <a href="/book" className="cta-button">
             Book Now
