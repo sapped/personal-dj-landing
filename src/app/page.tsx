@@ -156,8 +156,8 @@ export default function Home() {
           </p>
           <p>
             <span className="highlight">
-              I&apos;m responsible. I show up early. I don&apos;t drink on the job. And I take the
-              gig seriously—even when I&apos;m doing it for the love of it.
+              I&apos;m responsible. I show up early. And I take the gig seriously—even when
+              I&apos;m doing it for the love of it.
             </span>
           </p>
         </div>
