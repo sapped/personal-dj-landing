@@ -166,42 +166,12 @@ export default function Home() {
       <section className="section">
         <div className="container">
           <div className="section-label">Equipment</div>
-          <h2>Full mobile rig. Self-sufficient for 200+ people.</h2>
-
-          <div className="equipment-list">
-            <div className="equipment-item">
-              <span className="label">Controller</span>
-              <span className="value">Numark Mixtrack Pro 3</span>
-            </div>
-            <div className="equipment-item">
-              <span className="label">Software</span>
-              <span className="value">Serato DJ Pro</span>
-            </div>
-            <div className="equipment-item">
-              <span className="label">Laptop</span>
-              <span className="value">MacBook Pro</span>
-            </div>
-            <div className="equipment-item">
-              <span className="label">Speakers</span>
-              <span className="value">QSC K12.2 (pair) – 2000W each</span>
-            </div>
-            <div className="equipment-item">
-              <span className="label">Subwoofer</span>
-              <span className="value">QSC KS112 – 2000W</span>
-            </div>
-            <div className="equipment-item">
-              <span className="label">Microphone</span>
-              <span className="value">Shure SM58</span>
-            </div>
-            <div className="equipment-item">
-              <span className="label">Lighting</span>
-              <span className="value">Chauvet DJ GigBAR 2</span>
-            </div>
-            <div className="equipment-item">
-              <span className="label">Backup</span>
-              <span className="value">Full redundant laptop setup</span>
-            </div>
-          </div>
+          <h2>Full mobile rig. Can also work with your system.</h2>
+          <p>
+            Turntables, MacBook, speakers &amp; amp, stands, table, lasers, fog machine, LED
+            lights—everything needed for a self-sufficient setup. Also happy to plug into your
+            house system if you have one.
+          </p>
         </div>
       </section>
 
