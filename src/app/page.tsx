@@ -25,7 +25,7 @@ export default function Home() {
           <h1>
             DJ <span>Eddy X</span>
           </h1>
-          <p className="hero-tagline">20+ years behind the decks. Still reading rooms.</p>
+          <p className="hero-tagline">Your guests on the dance floor. Your night, stress-free.</p>
 
           <div className="hero-stats">
             <div className="stat">
@@ -46,7 +46,7 @@ export default function Home() {
 
       <section className="mid-cta">
         <div className="container">
-          <a href="/book" className="mid-cta-button">Book Now</a>
+          <a href="/book" className="mid-cta-button">Tell Me About Your Event</a>
         </div>
       </section>
 
@@ -95,44 +95,44 @@ export default function Home() {
 
       <section className="section">
         <div className="container">
-          <div className="section-label">My Approach</div>
-          <h2>I&apos;ll match your vibe. And yes, I can get anyone dancing.</h2>
+          <div className="section-label">What You Get</div>
+          <h2>A dance floor that fills. A night you don&apos;t have to babysit.</h2>
           <p>
-            I&apos;m not going to blow you away with the sickest transitions or flashiest
-            scratching. That&apos;s not my game.{" "}
+            You won&apos;t get flashy transitions or turntable tricks. You&apos;ll get something
+            better:{" "}
             <span className="highlight">
-              My sixth sense is playing what the crowd wants to hear—often before they know they
-              want to hear it.
+              guests asking &quot;who was that DJ?&quot; and a night where you actually got to
+              enjoy yourself.
             </span>
           </p>
 
           <div className="approach-grid">
             <div className="approach-item">
-              <h3>Open Format</h3>
+              <h3>Everyone Dances</h3>
               <p>
-                I&apos;ll read the room and adjust on the fly. Hip-hop to house to classic
-                rock—whatever moves people.
+                Your 60-year-old uncle and your college roommate both hit the floor. Open format
+                means everyone hears something they love.
               </p>
             </div>
             <div className="approach-item">
-              <h3>Family Friendly</h3>
+              <h3>Zero Awkward Moments</h3>
               <p>
-                Need it clean? I&apos;ve got it locked. Weddings, corporate events, kids&apos;
-                parties—no problem.
+                Clean lyrics when grandma&apos;s watching. No sudden tempo drops. No dead air. You
+                won&apos;t cringe once.
               </p>
             </div>
             <div className="approach-item">
-              <h3>Background Vibes</h3>
+              <h3>Conversation Flows</h3>
               <p>
-                If you want music that elevates without stealing center stage, I can hold that line
-                all night.
+                Cocktail hour? Dinner? The music sets the mood without drowning out your guests.
+                Energy rises when it&apos;s time.
               </p>
             </div>
             <div className="approach-item">
-              <h3>Turn It Up</h3>
+              <h3>The Moment They Remember</h3>
               <p>
-                When the energy needs to build, I know how to take it there. Controlled chaos is
-                still controlled.
+                When you&apos;re ready to let loose, the floor packs. That&apos;s when the photos
+                happen. That&apos;s what people talk about after.
               </p>
             </div>
           </div>
@@ -177,13 +177,13 @@ export default function Home() {
 
       <section className="cta">
         <div className="container">
-          <h2>Let&apos;s work together</h2>
+          <h2>Tell me about your event</h2>
           <p>
-            Currently booking private events, weddings, fitness classes, and social gatherings in
-            Atlanta. Open to venue residencies and one-off activations.
+            Weddings, private parties, fitness classes, corporate gatherings—if you&apos;re in
+            Atlanta and you need a dance floor that actually fills, let&apos;s talk.
           </p>
           <a href="/book" className="cta-button">
-            Book Now
+            Get Started
           </a>
         </div>
       </section>
