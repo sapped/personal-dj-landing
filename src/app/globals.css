@@ -163,8 +163,30 @@ a:hover {
   margin-top: 8px;
 }
 
-/* Mid CTA */
+.hero-cta-button {
+  display: inline-block;
+  background: transparent;
+  color: var(--white);
+  padding: 16px 48px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  border: 2px solid var(--white);
+  transition: all 0.2s;
+  margin-top: 48px;
+}
+
+.hero-cta-button:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--black);
+  opacity: 1;
+}
+
+/* Mid CTA - kept for reference */
 .mid-cta {
+  display: none;
   padding: 48px 0;
   background: var(--black);
   text-align: center;

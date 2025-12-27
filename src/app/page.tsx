@@ -41,12 +41,8 @@ export default function Home() {
               <div className="stat-label">Based In</div>
             </div>
           </div>
-        </div>
-      </section>
 
-      <section className="mid-cta">
-        <div className="container">
-          <a href="/book" className="mid-cta-button">Tell Me About Your Event</a>
+          <a href="/book" className="hero-cta-button">Tell Me About Your Event</a>
         </div>
       </section>
 
