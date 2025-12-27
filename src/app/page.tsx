@@ -50,49 +50,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section section-story">
-        <div className="story-gallery-bg">
-          <Image src="/gallery/545193147_31187764827534306_8735137467493314077_n.jpg" alt="" width={300} height={300} />
-          <Image src="/gallery/513859225_10239055788392356_3634728018556833407_n.jpg" alt="" width={300} height={300} />
-          <Image src="/gallery/472297968_10161332305708353_6876835523591593908_n.jpg" alt="" width={300} height={300} />
-          <Image src="/gallery/514720608_10239055801632687_5470636956490416291_n.jpg" alt="" width={300} height={300} />
-          <Image src="/gallery/467671571_10160808585443597_6648752054071422004_n.jpg" alt="" width={300} height={300} />
-          <Image src="/gallery/468911035_10161255611858353_1168045258331959643_n.jpg" alt="" width={300} height={300} />
-          <Image src="/gallery/514109719_10238151173057738_919747157847236360_n.jpg" alt="" width={300} height={300} />
-          <Image src="/gallery/555693996_10166246548543761_6065520913205924100_n.jpg" alt="" width={300} height={300} />
-          <Image src="/gallery/471664041_10161332310688353_2409614837003362541_n.jpg" alt="" width={300} height={300} />
-          <Image src="/gallery/465995200_10162229373584511_5067228996678230709_n.jpg" alt="" width={300} height={300} />
-          <Image src="/gallery/472172276_10161332302258353_3996717328429110899_n.jpg" alt="" width={300} height={300} />
-          <Image src="/gallery/556698141_10166246548418761_2065552809278793157_n.jpg" alt="" width={300} height={300} />
-          <Image src="/gallery/472311482_10161332307538353_4603687870950461750_n.jpg" alt="" width={300} height={300} />
-          <Image src="/gallery/463459433_8921509087868584_2375526918257032711_n.jpg" alt="" width={300} height={300} />
-          <Image src="/gallery/518113224_10161875032033597_3212367342069227862_n.jpg" alt="" width={300} height={300} />
-          <Image src="/gallery/518321948_10161879651328597_3509790786019115705_n.jpg" alt="" width={300} height={300} />
-          <Image src="/gallery/IMG_6841.jpeg" alt="" width={300} height={300} />
-        </div>
-        <div className="container">
-          <div className="story-content">
-            <div className="section-label">The Story</div>
-            <h2>Started at 13 with flyers and a dream</h2>
-            <p>
-              I started DJing by plastering flyers across my neighborhood in Greensboro, North
-              Carolina, offering a few free gigs to get started. I expected it to take months to land
-              something. <span className="highlight">I was booked within a week.</span>
-            </p>
-            <p>
-              What began as a middle school hustle turned into a real business almost overnight. By
-              the time I was a freshman in high school, I was DJing every other weekend—birthday
-              parties, school dances, house parties, bar mitzvahs, you name it. Word of mouth did all
-              the heavy lifting. Every dollar I made went right back into better equipment.
-            </p>
-            <p>
-              That&apos;s when I learned two things that have stuck with me ever since:{" "}
-              <span className="highlight">how to shake hands, and how to read a crowd.</span>
-            </p>
-          </div>
-        </div>
-      </section>
-
       <section className="section">
         <div className="container">
           <div className="section-label">What You Get</div>
@@ -134,6 +91,49 @@ export default function Home() {
                 That&apos;s what people talk about after.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-story">
+        <div className="story-gallery-bg">
+          <Image src="/gallery/545193147_31187764827534306_8735137467493314077_n.jpg" alt="" width={300} height={300} />
+          <Image src="/gallery/513859225_10239055788392356_3634728018556833407_n.jpg" alt="" width={300} height={300} />
+          <Image src="/gallery/472297968_10161332305708353_6876835523591593908_n.jpg" alt="" width={300} height={300} />
+          <Image src="/gallery/514720608_10239055801632687_5470636956490416291_n.jpg" alt="" width={300} height={300} />
+          <Image src="/gallery/467671571_10160808585443597_6648752054071422004_n.jpg" alt="" width={300} height={300} />
+          <Image src="/gallery/468911035_10161255611858353_1168045258331959643_n.jpg" alt="" width={300} height={300} />
+          <Image src="/gallery/514109719_10238151173057738_919747157847236360_n.jpg" alt="" width={300} height={300} />
+          <Image src="/gallery/555693996_10166246548543761_6065520913205924100_n.jpg" alt="" width={300} height={300} />
+          <Image src="/gallery/471664041_10161332310688353_2409614837003362541_n.jpg" alt="" width={300} height={300} />
+          <Image src="/gallery/465995200_10162229373584511_5067228996678230709_n.jpg" alt="" width={300} height={300} />
+          <Image src="/gallery/472172276_10161332302258353_3996717328429110899_n.jpg" alt="" width={300} height={300} />
+          <Image src="/gallery/556698141_10166246548418761_2065552809278793157_n.jpg" alt="" width={300} height={300} />
+          <Image src="/gallery/472311482_10161332307538353_4603687870950461750_n.jpg" alt="" width={300} height={300} />
+          <Image src="/gallery/463459433_8921509087868584_2375526918257032711_n.jpg" alt="" width={300} height={300} />
+          <Image src="/gallery/518113224_10161875032033597_3212367342069227862_n.jpg" alt="" width={300} height={300} />
+          <Image src="/gallery/518321948_10161879651328597_3509790786019115705_n.jpg" alt="" width={300} height={300} />
+          <Image src="/gallery/IMG_6841.jpeg" alt="" width={300} height={300} />
+        </div>
+        <div className="container">
+          <div className="story-content">
+            <div className="section-label">The Story</div>
+            <h2>Started at 13 with flyers and a dream</h2>
+            <p>
+              I started DJing by plastering flyers across my neighborhood in Greensboro, North
+              Carolina, offering a few free gigs to get started. I expected it to take months to land
+              something. <span className="highlight">I was booked within a week.</span>
+            </p>
+            <p>
+              What began as a middle school hustle turned into a real business almost overnight. By
+              the time I was a freshman in high school, I was DJing every other weekend—birthday
+              parties, school dances, house parties, bar mitzvahs, you name it. Word of mouth did all
+              the heavy lifting. Every dollar I made went right back into better equipment.
+            </p>
+            <p>
+              That&apos;s when I learned two things that have stuck with me ever since:{" "}
+              <span className="highlight">how to shake hands, and how to read a crowd.</span>
+            </p>
           </div>
         </div>
       </section>
