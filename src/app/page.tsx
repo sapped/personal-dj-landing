@@ -25,7 +25,7 @@ export default function Home() {
           <h1>
             DJ <span>Eddy X</span>
           </h1>
-          <p className="hero-tagline">Your guests on the dance floor. Your night, stress-free.</p>
+          <p className="hero-tagline">The right energy for the room. Your night, stress-free.</p>
 
           <div className="hero-stats">
             <div className="stat">
@@ -96,43 +96,42 @@ export default function Home() {
       <section className="section">
         <div className="container">
           <div className="section-label">What You Get</div>
-          <h2>A dance floor that fills. A night you don&apos;t have to babysit.</h2>
+          <h2>The vibe you want. A night you don&apos;t have to babysit.</h2>
           <p>
-            You won&apos;t get flashy transitions or turntable tricks. You&apos;ll get something
-            better:{" "}
+            Whether you need a packed dance floor or smooth background music that keeps
+            conversation flowing—you&apos;ll get{" "}
             <span className="highlight">
-              guests asking &quot;who was that DJ?&quot; and a night where you actually got to
-              enjoy yourself.
+              the right energy for your crowd, and a night where you actually get to enjoy yourself.
             </span>
           </p>
 
           <div className="approach-grid">
             <div className="approach-item">
-              <h3>Everyone Dances</h3>
+              <h3>Everyone Finds Their Song</h3>
               <p>
-                Your 60-year-old uncle and your college roommate both hit the floor. Open format
-                means everyone hears something they love.
+                Your 60-year-old uncle and your college roommate both hear something they love.
+                Open format means the whole room stays happy.
               </p>
             </div>
             <div className="approach-item">
               <h3>Zero Awkward Moments</h3>
               <p>
-                Clean lyrics when grandma&apos;s watching. No sudden tempo drops. No dead air. You
-                won&apos;t cringe once.
+                Clean lyrics when you need them. No sudden tempo drops. No dead air. You won&apos;t
+                cringe once.
               </p>
             </div>
             <div className="approach-item">
-              <h3>Conversation Flows</h3>
+              <h3>Restaurant-Ready</h3>
               <p>
-                Cocktail hour? Dinner? The music sets the mood without drowning out your guests.
-                Energy rises when it&apos;s time.
+                Background sets for dinner service, happy hours, or lounge nights. Music that
+                elevates the room without competing with conversation.
               </p>
             </div>
             <div className="approach-item">
-              <h3>The Moment They Remember</h3>
+              <h3>Dance Floor When You Want It</h3>
               <p>
-                When you&apos;re ready to let loose, the floor packs. That&apos;s when the photos
-                happen. That&apos;s what people talk about after.
+                When it&apos;s time to turn up, the floor packs. That&apos;s when the photos happen.
+                That&apos;s what people talk about after.
               </p>
             </div>
           </div>
@@ -179,8 +178,8 @@ export default function Home() {
         <div className="container">
           <h2>Tell me about your event</h2>
           <p>
-            Weddings, private parties, fitness classes, corporate gatherings—if you&apos;re in
-            Atlanta and you need a dance floor that actually fills, let&apos;s talk.
+            Weddings, private parties, restaurant nights, fitness classes, corporate events—if
+            you&apos;re in Atlanta and need the right soundtrack, let&apos;s talk.
           </p>
           <a href="/book" className="cta-button">
             Get Started
