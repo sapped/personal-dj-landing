@@ -179,18 +179,18 @@ export default function Home() {
           <div className="gallery">
             <div className="gallery-item">
               <Image
-                src="/gallery/2005.jpg"
-                alt="Early days"
+                src="/gallery/514720608_10239055801632687_5470636956490416291_n.jpg"
+                alt="Early days in the dining room"
                 width={400}
                 height={400}
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
-              <div className="caption">Greensboro, 2005</div>
+              <div className="caption">The dining room, ~2005</div>
             </div>
             <div className="gallery-item">
               <Image
-                src="/gallery/house-party.jpg"
-                alt="House party"
+                src="/gallery/514109719_10238151173057738_919747157847236360_n.jpg"
+                alt="House party with EQ shirt"
                 width={400}
                 height={400}
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
@@ -199,18 +199,38 @@ export default function Home() {
             </div>
             <div className="gallery-item">
               <Image
-                src="/gallery/college.jpg"
-                alt="College events"
+                src="/gallery/545193147_31187764827534306_8735137467493314077_n.jpg"
+                alt="High school pep rally"
                 width={400}
                 height={400}
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
-              <div className="caption">College era</div>
+              <div className="caption">High school MC</div>
             </div>
             <div className="gallery-item">
               <Image
-                src="/gallery/club.jpg"
-                alt="Club gigs"
+                src="/gallery/471664041_10161332310688353_2409614837003362541_n.jpg"
+                alt="College outdoor event"
+                width={400}
+                height={400}
+                style={{ width: "100%", height: "100%", objectFit: "cover" }}
+              />
+              <div className="caption">Golden Blender era</div>
+            </div>
+            <div className="gallery-item">
+              <Image
+                src="/gallery/472172276_10161332302258353_3996717328429110899_n.jpg"
+                alt="College event crowd moment"
+                width={400}
+                height={400}
+                style={{ width: "100%", height: "100%", objectFit: "cover" }}
+              />
+              <div className="caption">College events</div>
+            </div>
+            <div className="gallery-item">
+              <Image
+                src="/gallery/467671571_10160808585443597_6648752054071422004_n.jpg"
+                alt="Club gig with controller"
                 width={400}
                 height={400}
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
@@ -219,8 +239,18 @@ export default function Home() {
             </div>
             <div className="gallery-item">
               <Image
-                src="/gallery/formal.jpg"
-                alt="Formal events"
+                src="/gallery/555693996_10166246548543761_6065520913205924100_n.jpg"
+                alt="DJ booth hands up"
+                width={400}
+                height={400}
+                style={{ width: "100%", height: "100%", objectFit: "cover" }}
+              />
+              <div className="caption">In the booth</div>
+            </div>
+            <div className="gallery-item">
+              <Image
+                src="/gallery/518321948_10161879651328597_3509790786019115705_n.jpg"
+                alt="Formal event in tux"
                 width={400}
                 height={400}
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
@@ -229,8 +259,8 @@ export default function Home() {
             </div>
             <div className="gallery-item">
               <Image
-                src="/gallery/2024.jpg"
-                alt="Recent wedding"
+                src="/gallery/IMG_6841.jpeg"
+                alt="Wedding DJ setup"
                 width={400}
                 height={400}
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
