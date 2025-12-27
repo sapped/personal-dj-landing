@@ -1,9 +1,25 @@
 "use client";
 
-import { useState } from "react";
+import { useState, FormEvent } from "react";
 
 export default function BookPage() {
   const [dateFlexibility, setDateFlexibility] = useState("specific");
+
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+    const form = e.currentTarget;
+    const optionalFields = [
+      "phone", "venue", "arrival_time", "duration", "crowd_size",
+      "indoor_outdoor", "sound_system", "lighting", "vibe",
+      "family_friendly", "genres", "mic_announcements"
+    ];
+
+    optionalFields.forEach((fieldName) => {
+      const field = form.elements.namedItem(fieldName) as HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement | null;
+      if (field && !field.value) {
+        field.value = "N/A";
+      }
+    });
+  };
 
   return (
     <main style={{ minHeight: "100vh", background: "#0a0a0a", color: "#f5f5f5" }}>
@@ -36,6 +52,7 @@ export default function BookPage() {
         <form
           action="https://formspree.io/f/xbdjdzwj"
           method="POST"
+          onSubmit={handleSubmit}
           style={{ display: "flex", flexDirection: "column", gap: "32px" }}
         >
           {/* Essential Fields */}
