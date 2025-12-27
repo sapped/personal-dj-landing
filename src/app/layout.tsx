@@ -9,18 +9,21 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: "DJ Eddy X | Edward Sapp",
-  description: "20+ years behind the decks. Private events, weddings, and social gatherings in Atlanta.",
+  description: "Your guests on the dance floor. Your night, stress-free. Atlanta DJ for weddings, private events, and fitness classes.",
   metadataBase: new URL("https://dj.edwardsapp.com"),
+  icons: {
+    icon: "/favicon.svg",
+  },
   openGraph: {
     title: "DJ Eddy X",
-    description: "20+ years behind the decks. Private events, weddings, and social gatherings in Atlanta.",
+    description: "Your guests on the dance floor. Your night, stress-free.",
     type: "website",
     images: ["/og-image.jpg"],
   },
   twitter: {
     card: "summary_large_image",
     title: "DJ Eddy X",
-    description: "20+ years behind the decks. Private events, weddings, and social gatherings in Atlanta.",
+    description: "Your guests on the dance floor. Your night, stress-free.",
     images: ["/og-image.jpg"],
   },
 };
