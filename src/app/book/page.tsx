@@ -3,7 +3,7 @@
 import { useState, FormEvent } from "react";
 
 export default function BookPage() {
-  const [dateFlexibility, setDateFlexibility] = useState("specific");
+  const [dateFlexibility, setDateFlexibility] = useState("flexible");
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     const form = e.currentTarget;
@@ -115,8 +115,8 @@ export default function BookPage() {
                 onChange={(e) => setDateFlexibility(e.target.value)}
                 style={{ width: "100%", padding: "14px 16px", background: "#111", border: "1px solid #333", borderRadius: "4px", color: "#fff", fontSize: "17px", fontFamily: "'Space Mono', monospace", cursor: "pointer", marginBottom: dateFlexibility === "specific" ? "12px" : "0" }}
               >
-                <option value="specific">I have a specific date</option>
                 <option value="flexible">Flexible / not sure yet</option>
+                <option value="specific">I have a specific date</option>
               </select>
               {dateFlexibility === "specific" && (
                 <input
