@@ -1,13 +1,27 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+};
 
 export const metadata: Metadata = {
   title: "DJ Eddy X | Edward Sapp",
   description: "20+ years behind the decks. Private events, weddings, and social gatherings in Atlanta.",
+  metadataBase: new URL("https://dj.edwardsapp.com"),
   openGraph: {
-    title: "DJ Eddy X | Edward Sapp",
+    title: "DJ Eddy X",
     description: "20+ years behind the decks. Private events, weddings, and social gatherings in Atlanta.",
     type: "website",
+    images: ["/og-image.jpg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "DJ Eddy X",
+    description: "20+ years behind the decks. Private events, weddings, and social gatherings in Atlanta.",
+    images: ["/og-image.jpg"],
   },
 };
 
