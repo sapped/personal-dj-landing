@@ -96,7 +96,7 @@ export default function Home() {
       <section className="section">
         <div className="container">
           <div className="section-label">My Approach</div>
-          <h2>Your crowd will be dancing. The energy will be right.</h2>
+          <h2>I&apos;ll match your vibe. And yes, I can get anyone dancing.</h2>
           <p>
             I&apos;m not going to blow you away with the sickest transitions or flashiest
             scratching. That&apos;s not my game.{" "}
